@@ -11,6 +11,7 @@
         <module name="config-server" />
         <module name="service-provider" />
         <module name="service-consumer2" />
+        <module name="config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
