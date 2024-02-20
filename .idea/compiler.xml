@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="service-consumer2" />
+        <module name="gateway-zuul" />
+        <module name="config-client" />
         <module name="service-registration-center" />
         <module name="service-consumer" />
-        <module name="config-server" />
         <module name="service-provider" />
-        <module name="service-consumer2" />
-        <module name="config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
